@@ -109,3 +109,22 @@ a {
 .hb-fill-middle2:hover::after {
   width: 50%;
 }
+@media (max-width: 1665px) {
+  .ab {
+    text-align: center;
+    margin-top: 5%;
+  }
+  a {
+    width: 30%;
+    align-self: center;
+  }
+}
+@media (max-width: 1050px) {
+  a {
+    width: 60%;
+  }
+  .ab {
+    margin-top: 10%;
+    width: 100%;
+  }
+}
